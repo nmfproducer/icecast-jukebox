@@ -7,7 +7,7 @@ div.item {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#391FB8), color-stop(100%,#31AEC4)); /* for old iOS/Android */
     background: -webkit-linear-gradient(top, #391FB8 50%, #31AEC4 100%); /* for Android */
     background: linear-gradient(to bottom, #391FB8 50%, #31AEC4 100%); /* for other major browsers */
-    border: 5px outset #276DD6;
+    border: 0.3em outset #276DD6;
     border-radius: 10px;
     float: left;
     margin: 1em;
@@ -63,6 +63,10 @@ div.item div.time div.timebar {
 
 div.hidden {
     visibility: hidden;
+}
+
+div.servertime {
+    width: 28.6em;
 }
 
 #emScale {
