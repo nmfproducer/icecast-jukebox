@@ -1,0 +1,71 @@
+body {
+    background-color: #222233;
+    color: #FFFFEE;
+}
+
+div.item {
+    background: linear-gradient(to bottom, #391FB8 50%, #31AEC4 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 5px outset #276DD6;
+    border-radius: 10px;
+    float: left;
+    margin: 1em;
+    padding: 1em;
+    width: 24em;
+    /* height: 12em; */
+    position: relative;
+    box-shadow: 0px 0px 5px 5px #033447;
+}
+
+div.item div.mountpoint {
+    font-size: x-large;
+    margin-bottom: 0.3em;
+    text-decoration: underline;
+    text-shadow: 0px 0px 3px rgba(200,200,100, 0.6);
+}
+
+div.item div.link {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 0.3em;
+}
+
+div.item a {
+    text-decoration: none;
+    color: #ffbaf2;
+}
+div.item a:hover {
+    text-decoration: underline;
+}
+    
+div.item div.time {
+    position: relative;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+div.item div.time span.starttime {
+    text-align: left;
+    position: absolute;
+    left: 0;
+}
+
+div.item div.time span.endtime {
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+
+div.item div.time div.timebar {
+    font-family: monospace;
+}
+
+div.hidden {
+    visibility: hidden;
+}
+
+#emScale {
+    margin: 0;
+    padding: 0;
+    width: 1em;
+    height: 1em;
+}
